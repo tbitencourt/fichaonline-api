@@ -2,10 +2,6 @@ import fastify from 'fastify'
 
 const app = fastify()
 
-// app.get('/hello', () => {
-//   return 'Hello  World'
-// })
-
 app.get('/news', (request, reply) => {
   const data = [
     {
